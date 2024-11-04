@@ -6,14 +6,20 @@ Take a string and make sure that it is a proper sentence, with only the first le
 '''
 
 def properCaps(input):
-    '''
-    parameters:
-    str input - string to fix capitalization for
+
+#parameters:
+#str input - string to fix capitalization for
     
-    return
-    str - proper capitalized string
-    '''
-    return
+    input = sentence.lower()
+    input = sentence.capitalize()
+    print(input)
+
+#return
+#str - proper capitalized string
+
+    modifiedString = input
+
+    return modifiedString
 
 
 if __name__ == "__main__":
@@ -22,3 +28,5 @@ if __name__ == "__main__":
 
     sentence = "I'm JuSt A LiTtle Black RainCLOUD!"
     assert properCaps(sentence) == "I'm just a little black raincloud!"
+
+#DONE
